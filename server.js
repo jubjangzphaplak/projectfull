@@ -26,9 +26,9 @@ app.get('/index', function(req,res){
     res.render('pages/index');
 });
 app.get('/about', function(req,res){
-    var name = 'Chootigarn Tanapibalwongsa';
+    var name = 'Phaplak Saethapan';
     var hobbies =['Music','Movie','Programing'];
-    var dob = '09/08/1997';
+    var dob = '09/06/1997';
     res.render('pages/about',{fullname : name, hobbies : hobbies, dob : dob});   
 });
 app.get('/products', function(req,res){
