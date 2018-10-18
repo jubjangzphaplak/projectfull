@@ -5,8 +5,8 @@
     <thead>
         <tr>
             <th>ID</th>
-            <th>E-mail</th>
-            <th>Password</th>
+            <th>Title</th>
+            <th>Price</th>
             <th><a class="btn btn-primary" href="/addnewproduct/" role="button">Add New</a></th>
             <th></th>
         </tr>
@@ -21,7 +21,7 @@
             <td><%=product.title%></td>
             <td><%=product.price%></td>
             <td><a class="btn btn-primary" href="/products/<%=product.id%>" role="button">Edit</a></td>
-            <td><a class="btn btn-danger" href="/products/<%=product.id%>" role="button">Delete</a></td>
+            <td><a class="btn btn-danger" href="" role="button">Delete</a></td>
             
         </tr>
       <%});%>
