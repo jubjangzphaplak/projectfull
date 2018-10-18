@@ -63,6 +63,9 @@ app.get('/products/:pid', function(req,res){
    
     
 });
+app.get('/addnewproduct', function(req,res){
+    res.render('pages/addnew');
+});
 //display users
 app.get('/users', function(req,res){
     db.any('select * from users',)
